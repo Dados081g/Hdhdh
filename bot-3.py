@@ -23,10 +23,10 @@ from aiogram.types import (
 )
 
 # ══════════════════════════ НАСТРОЙКИ ══════════════════════════
-BOT_TOKEN = os.getenv("BOT_TOKEN", "PASTE_YOUR_TOKEN_HERE")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8763383205:AAFeRlMGdhVBEn8SBsretOjsB_dgmjMV3TM")
 
 # ВСТАВЬТЕ СВОЙ TELEGRAM ID (узнать: отправьте боту команду /id).
-# Админов может быть несколько: {111111111, 222222222}
+# Админов может быть несколько: {5000488732, 222222222}
 ADMIN_IDS = {0}
 if os.getenv("ADMIN_IDS"):
     ADMIN_IDS = {int(x) for x in os.getenv("ADMIN_IDS").split(",") if x.strip().isdigit()}
