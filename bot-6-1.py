@@ -26,7 +26,7 @@ from aiogram.types import (
 )
 
 # ══════════════════════════ НАСТРОЙКИ ══════════════════════════
-BOT_TOKEN = os.getenv("BOT_TOKEN", "PASTE_YOUR_TOKEN_HERE")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8763383205:AAFeRlMGdhVBEn8SBsretOjsB_dgmjMV3TM")
 
 # Вход в админку: команда  /admin ПАРОЛЬ
 # После первого входа бот запоминает вас, дальше хватает просто /admin.
